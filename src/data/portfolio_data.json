@@ -1,0 +1,134 @@
+{
+  "developer": {
+    "name": "Harshvardhansinh Vaghela",
+    "github": "harshvardhan7851",
+    "role": "AI/ML Developer",
+    "skills": [
+      "Scikit-Learn",
+      "Data Science",
+      "Keras",
+      "TensorFlow",
+      "OpenCV",
+      "Lucide Icons",
+      "React",
+      "JavaScript",
+      "Node.js",
+      "Pandas",
+      "Machine Learning",
+      "Express",
+      "FastAPI",
+      "Jupyter Notebook",
+      "Python"
+    ]
+  },
+  "projects": [
+    {
+      "id": 9,
+      "name": "Image Manipulation Detector",
+      "description": "VeriLens AI is an **explainable deep learning application** that detects whether an image is **real ...",
+      "longDescription": "VeriLens AI is an **explainable deep learning application** that detects whether an image is **real or manipulated** using transfer learning and visual explanation techniques.",
+      "techStack": [
+        "OpenCV",
+        "TensorFlow",
+        "Scikit-Learn",
+        "Python"
+      ],
+      "features": [
+        "\ud83d\udce4 Upload any image (JPG, PNG)",
+        "\ud83e\udd16 AI-based classification (Real vs Fake)",
+        "\ud83d\udcca Confidence score visualization",
+        "\ud83d\udd0d Grad-CAM heatmap for model explainability",
+        "\u26a1 Fast and efficient inference using MobileNetV2"
+      ],
+      "githubUrl": "",
+      "liveUrl": "",
+      "category": "AI/ML",
+      "featured": true
+    },
+    {
+      "id": 14,
+      "name": "Meeting Brain",
+      "description": "> Turn any meeting transcript into instant action \u2014 summaries, tasks, decisions, mood analysis & fol...",
+      "longDescription": "> Turn any meeting transcript into instant action \u2014 summaries, tasks, decisions, mood analysis & follow-up emails in seconds.",
+      "techStack": [
+        "Lucide Icons",
+        "React",
+        "Node.js",
+        "JavaScript"
+      ],
+      "features": [
+        "\ud83e\udde0 **Smart Summary** \u2014 2-3 sentence overview of any meeting",
+        "\u2705 **Action Items** \u2014 Every task automatically extracted",
+        "\u26a1 **Key Decisions** \u2014 What was agreed on, crystal clear",
+        "\ud83d\ude0a **Team Mood Meter** \u2014 Sentiment score with visual indicator",
+        "\ud83d\udce7 **Follow-up Email Draft** \u2014 Ready-to-send email in one click"
+      ],
+      "githubUrl": "",
+      "liveUrl": "",
+      "category": "Frontend",
+      "featured": true
+    },
+    {
+      "id": 7,
+      "name": "Gruntworkr",
+      "description": "GruntWorkr is a modern, AI-driven platform designed to streamline the recruitment process through in...",
+      "longDescription": "GruntWorkr is a modern, AI-driven platform designed to streamline the recruitment process through intelligent resume parsing, skill normalization, and candidate matching. Built with a multi-agent orchestration architecture, it leverages cutting-edge LLMs to provide precise talent insights.",
+      "techStack": [
+        "Python",
+        "FastAPI"
+      ],
+      "features": [
+        "Multi-Agent Parsing:** Specialized agents to extract personal info, experience, and education with high accuracy.",
+        "Intelligent Skill Mapping:** Automatically normalizes extracted skills against a central taxonomy.",
+        "Candidate-Job Matching:** Advanced matching algorithms to find the best fit for specific roles.",
+        "Real-time Telemetry:** Built-in tracking for performance monitoring and API health.",
+        "Modern Dashboard:** A sleek, responsive interface for managing the entire talent pipeline."
+      ],
+      "githubUrl": "",
+      "liveUrl": "",
+      "category": "AI/ML",
+      "featured": true
+    },
+    {
+      "id": 12,
+      "name": "Legal Ai Platform",
+      "description": "LegalAI is a premium, AI-powered platform designed to streamline legal document analysis. It helps u...",
+      "longDescription": "LegalAI is a premium, AI-powered platform designed to streamline legal document analysis. It helps users understand complex contracts by breaking them down into simpler terms, identifying risks, and providing multi-language explanations (English, Gujarati, and Hindi).",
+      "techStack": [
+        "Python",
+        "FastAPI"
+      ],
+      "features": [
+        "\ud83d\udcc4 Smart PDF Parsing**: Upload legal documents and extract clauses automatically.",
+        "\ud83d\udd0d Clause Analysis**: AI-driven explanation of complex legal jargon in plain English.",
+        "\ud83c\udf0d Multi-language Support**: Explanations available in **English**, **Gujarati**, and **Hindi**.",
+        "\u26a0\ufe0f Risk Assessment**: Identifies potential risks (High, Medium, Low) in each clause.",
+        "\ud83d\udcc2 Categorization**: Automatically classifies clauses (e.g., Termination, Liability, Confidentiality)."
+      ],
+      "githubUrl": "",
+      "liveUrl": "",
+      "category": "AI/ML",
+      "featured": true
+    },
+    {
+      "id": 13,
+      "name": "Medscan",
+      "description": "MedScan AI is an AI Medical Report Explainer for Patients helping demystify health reports without r...",
+      "longDescription": "MedScan AI is an AI Medical Report Explainer for Patients helping demystify health reports without replacing professional medical advice.",
+      "techStack": [
+        "Python",
+        "FastAPI"
+      ],
+      "features": [
+        "FastAPI & Uvicorn",
+        "google-generativeai (Gemini 1.5 Flash)",
+        "pdfplumber, Pillow",
+        "SQLite via aiosqlite"
+      ],
+      "githubUrl": "",
+      "liveUrl": "",
+      "category": "AI/ML",
+      "featured": true
+    }
+  ]
+}
