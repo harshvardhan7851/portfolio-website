@@ -64,17 +64,17 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 px-6 max-w-7xl mx-auto border-t border-border/10">
-      <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-6">
+    <section id="contact" className="py-16 px-6 max-w-7xl mx-auto border-t border-border/10">
+      <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
         <div className="text-left">
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Let&apos;s Connect</h2>
-          <p className="text-lg text-muted-foreground max-w-xl">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">Let&apos;s Connect</h2>
+          <p className="text-base text-muted-foreground max-w-xl">
             Have a project in mind or just want to say hi? Feel free to reach out.
           </p>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-stretch">
 
         {/* Left Column - Contact Form */}
         <motion.div
@@ -82,52 +82,52 @@ export function Contact() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="w-full bg-card/40 backdrop-blur-xl rounded-[2.5rem] p-10 md:p-14 border border-border/50 shadow-2xl shadow-primary/5"
+          className="w-full bg-card/40 backdrop-blur-xl rounded-[2rem] p-8 md:p-10 border border-border/50 shadow-2xl shadow-primary/5"
         >
-          <h3 className="text-2xl font-bold mb-10 tracking-tight">Send a message</h3>
-          <form onSubmit={handleSubmit} className="space-y-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="space-y-5">
-                <label htmlFor="name" className="text-sm font-bold uppercase tracking-widest text-muted-foreground">Your Name</label>
+          <h3 className="text-xl font-bold mb-8 tracking-tight">Send a message</h3>
+          <form onSubmit={handleSubmit} className="space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              <div className="space-y-4">
+                <label htmlFor="name" className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Your Name</label>
                 <Input
                   id="name"
                   name="name"
                   placeholder="John Doe"
                   required
-                  className="rounded-2xl bg-background/50 px-6 py-7 text-lg border-border/50 focus-visible:ring-primary/20 transition-all duration-300"
+                  className="rounded-xl bg-background/50 px-5 py-6 text-base border-border/50 focus-visible:ring-primary/20 transition-all duration-300"
                 />
               </div>
 
-              <div className="space-y-5">
-                <label htmlFor="email" className="text-sm font-bold uppercase tracking-widest text-muted-foreground">Your Email</label>
+              <div className="space-y-4">
+                <label htmlFor="email" className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Your Email</label>
                 <Input
                   id="email"
                   name="email"
                   type="email"
                   placeholder="john@example.com"
                   required
-                  className="rounded-2xl bg-background/50 px-6 py-7 text-lg border-border/50 focus-visible:ring-primary/20 transition-all duration-300"
+                  className="rounded-xl bg-background/50 px-5 py-6 text-base border-border/50 focus-visible:ring-primary/20 transition-all duration-300"
                 />
               </div>
             </div>
 
-            <div className="space-y-5">
-              <label htmlFor="message" className="text-sm font-bold uppercase tracking-widest text-muted-foreground">Message</label>
+            <div className="space-y-4">
+              <label htmlFor="message" className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Message</label>
               <Textarea
                 id="message"
                 name="message"
                 placeholder="Tell me about your project..."
                 required
-                className="rounded-2xl bg-background/50 px-6 py-5 min-h-[200px] text-lg resize-none border-border/50 focus-visible:ring-primary/20 transition-all duration-300"
+                className="rounded-xl bg-background/50 px-5 py-4 min-h-[160px] text-base resize-none border-border/50 focus-visible:ring-primary/20 transition-all duration-300"
               />
             </div>
 
             <Button
               type="submit"
               disabled={status === "sending"}
-              className="w-full rounded-2xl py-8 text-lg font-bold shadow-xl hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
+              className="w-full rounded-xl py-7 text-base font-bold shadow-xl hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
             >
-              {status === "sending" ? "Sending..." : status === "success" ? "Message Sent!" : <><Send className="w-5 h-5 mr-3" /> Send Message</>}
+              {status === "sending" ? "Sending..." : status === "success" ? "Message Sent!" : <><Send className="w-4 h-4 mr-2" /> Send Message</>}
             </Button>
 
             {status === "error" && (
