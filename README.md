@@ -1,66 +1,60 @@
-# Harshvardhansinh Vaghela | Portfolio
+# 🌌 Premium AI/ML Developer Portfolio
 
-A premium, cybernetic-themed developer portfolio built with **Next.js 15**, **Tailwind CSS**, and **Three.js**. This project showcases my expertise in Data Science, AI/ML orchestration, and scalable full-stack development.
+A high-fidelity, interactive personal portfolio built with **Next.js 15**, **Three.js**, **Framer Motion**, and **Tailwind CSS**. Designed with a "Cybernetic Deep Space" aesthetic, featuring glassmorphism and real-time 3D data orchestration animations.
 
-![Portfolio Preview](public/preview.png) *(Note: Add a screenshot here once deployed)*
+![Portfolio Preview](https://github.com/harshvardhan7851/portfolio-website/raw/main/public/preview.png) *(Add your own screenshot here)*
 
-## 🚀 Features
+## ✨ Key Features
 
-- **Cybernetic Deep Space Aesthetic**: High-fidelity UI with glassmorphism, glowing accents, and smooth Framer Motion animations.
-- **3D Data Chain Orchestration**: Interactive Three.js animation representing LLM/LangChain data flows.
-- **Dynamic Project Showcase**: Responsive grid displaying AI/ML models, backend systems, and full-stack SaaS solutions.
-- **Interactive Skills System**: Categorized technical expertise with hover-active glassmorphic chips.
-- **Functional Contact Engine**: Real-time email integration using Web3Forms with status handling.
+- **🚀 3D Data Core**: Interactive Three.js animation representing a "Quantum Data Core" for the About section.
+- **🛠️ LangChain Inspired Design**: Visual storytelling focused on AI/ML orchestration and LLM agentic workflows.
+- **📂 Dynamic Project Showcase**: Premium grid layout with interactive modals for detailed project exploration.
+- **📡 Functional Contact System**: Real-time form submission integrated with Web3Forms (no backend required).
+- **🌗 Cybernetic Theme**: A meticulously crafted dark theme with deep indigo and slate accents.
+- **📱 Fully Responsive**: Optimized for all devices, from ultra-wide monitors to mobile screens.
 
 ## 🛠️ Tech Stack
 
-- **Framework**: [Next.js 15 (App Router)](https://nextjs.org/)
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/) & [Three.js](https://threejs.org/)
-- **3D Rendering**: [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber) & [@react-three/drei](https://github.com/pmndrs/drei)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **3D Rendering**: [Three.js](https://threejs.org/) via [@react-three/fiber](https://github.com/pmndrs/react-three-fiber)
 - **Icons**: [Lucide React](https://lucide.dev/)
-- **Form Handling**: [Web3Forms](https://web3forms.com/)
+- **Components**: [Shadcn UI](https://ui.shadcn.com/)
 
-## 📦 Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### 1. Clone the repository
+```bash
+git clone https://github.com/harshvardhan7851/portfolio-website.git
+cd portfolio-website
+```
 
-- Node.js 18+ 
-- npm / pnpm / yarn
+### 2. Install dependencies
+```bash
+npm install
+```
 
-### Installation
+### 3. Setup Contact Form
+- Get a free Access Key at [Web3Forms](https://web3forms.com/).
+- Replace `YOUR_ACCESS_KEY_HERE` in `src/components/contact.tsx` with your key.
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/harshvardhan7851/portfolio-website.git
-   cd portfolio-website
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Configure Environment Variables**
-   Create a `.env.local` file in the root and add your Web3Forms access key:
-   ```env
-   NEXT_PUBLIC_WEB3FORMS_KEY=your_access_key_here
-   ```
-
-4. **Run the development server**
-   ```bash
-   npm run dev
-   ```
+### 4. Run the development server
+```bash
+npm run dev
+```
 
 ## 📂 Project Structure
 
-- `src/components/`: Modular React components (Hero, About, Projects, Skills, Contact).
-- `src/data/`: Centralized `portfolio_data.json` for easy content updates.
-- `src/app/`: Next.js 15 App Router pages and global styles.
+- `src/app`: Next.js App Router and Page definitions.
+- `src/components`: Reusable UI components (Hero, About, Projects, etc.).
+- `src/data`: JSON source of truth for all projects and skills.
+- `src/lib`: Utility functions.
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is open-source and available under the [MIT License](LICENSE).
 
 ---
-Built with ❤️ by [Harshvardhansinh Vaghela](https://github.com/harshvardhan7851)
+
+Built with ❤️ by [Harshvardhansinh Vaghela](https://linkedin.com/in/harshvardhansinh-vaghela-7932672a8/)

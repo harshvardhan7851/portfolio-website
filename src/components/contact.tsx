@@ -87,7 +87,7 @@ export function Contact() {
           <h3 className="text-2xl font-bold mb-10 tracking-tight">Send a message</h3>
           <form onSubmit={handleSubmit} className="space-y-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="space-y-3">
+              <div className="space-y-5">
                 <label htmlFor="name" className="text-sm font-bold uppercase tracking-widest text-muted-foreground">Your Name</label>
                 <Input
                   id="name"
@@ -98,7 +98,7 @@ export function Contact() {
                 />
               </div>
 
-              <div className="space-y-3">
+              <div className="space-y-5">
                 <label htmlFor="email" className="text-sm font-bold uppercase tracking-widest text-muted-foreground">Your Email</label>
                 <Input
                   id="email"
@@ -111,7 +111,7 @@ export function Contact() {
               </div>
             </div>
 
-            <div className="space-y-3">
+            <div className="space-y-5">
               <label htmlFor="message" className="text-sm font-bold uppercase tracking-widest text-muted-foreground">Message</label>
               <Textarea
                 id="message"

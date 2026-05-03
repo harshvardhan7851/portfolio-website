@@ -84,7 +84,7 @@ export function Projects() {
       </div>
 
       <Dialog open={!!selectedProject} onOpenChange={() => setSelectedProject(null)}>
-        <DialogContent className="sm:max-w-5xl w-[95vw] rounded-[2rem] p-8 md:p-12 overflow-y-auto max-h-[90vh]">
+        <DialogContent className="sm:max-w-5xl w-[95vw] rounded-[2rem] p-8 md:p-12 overflow-y-auto max-h-[90vh] scrollbar-hide">
           {selectedProject && (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-4">
               <div className="flex flex-col">
