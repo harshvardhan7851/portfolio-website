@@ -43,7 +43,7 @@ export function Navbar() {
           </button>
         </div>
         <div className="flex items-center gap-6 text-sm font-medium text-muted-foreground">
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/harshvardhansinh-vaghela-7932672a8/" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors">LinkedIn</a>
           <span className="text-border">/</span>
           <a href="https://github.com/harshvardhan7851" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors">GitHub</a>
         </div>

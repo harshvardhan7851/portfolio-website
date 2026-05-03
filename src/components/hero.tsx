@@ -27,7 +27,6 @@ export function Hero() {
       <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-end justify-between relative z-10 gap-12 lg:px-12">
 
         <div className="flex flex-col items-start text-left max-w-4xl">
-
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
