@@ -10,7 +10,7 @@ export function Hero() {
   };
 
   return (
-    <section className="relative min-h-[80vh] flex flex-col justify-center px-6 pt-24 pb-16 overflow-hidden">
+    <section className="relative min-h-screen flex flex-col justify-center px-6 pt-20 pb-16 overflow-hidden">
       {/* Background Image & Glow Effects */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
@@ -24,15 +24,14 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background"></div>
       </div>
 
-      <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-end justify-between relative z-10 gap-10 lg:px-12">
+      <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-end justify-between relative z-10 gap-12 lg:px-12">
 
-        <div className="flex flex-col items-start text-left max-w-3xl">
-
+        <div className="flex flex-col items-start text-left max-w-4xl">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] mb-6"
+            className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-6"
           >
             Harshvardhansinh <br className="hidden md:block" /> Vaghela
           </motion.h1>
@@ -41,7 +40,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-base md:text-lg text-muted-foreground font-medium max-w-2xl leading-relaxed"
+            className="text-lg md:text-xl text-muted-foreground font-medium max-w-2xl leading-relaxed"
           >
             AI/ML Developer building scalable applications, backend systems, and SaaS solutions.
           </motion.p>
@@ -55,7 +54,7 @@ export function Hero() {
         >
           <Button
             onClick={scrollToContact}
-            className="rounded-full px-7 py-5 text-base font-semibold shadow-[0_0_40px_-12px_rgba(255,255,255,0.2)] hover:shadow-[0_0_50px_-10px_rgba(255,255,255,0.15)] hover:scale-105 transition-all duration-300 active:scale-95"
+            className="rounded-full px-8 py-6 text-lg font-semibold shadow-[0_0_40px_-12px_rgba(255,255,255,0.2)] hover:shadow-[0_0_50px_-10px_rgba(255,255,255,0.15)] hover:scale-105 transition-all duration-300 active:scale-95"
           >
             Get in touch
           </Button>

@@ -85,7 +85,7 @@ function DataCore() {
 
 export function About() {
   return (
-    <section id="about" className="py-24 px-6 max-w-7xl mx-auto overflow-hidden">
+    <section id="about" className="py-20 px-6 max-w-6xl mx-auto overflow-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
         <motion.div
