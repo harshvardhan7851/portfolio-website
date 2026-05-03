@@ -5,50 +5,59 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Hero() {
-  const scrollToProjects = () => {
-    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+  const scrollToContact = () => {
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
-    <section className="min-h-[90vh] flex flex-col justify-center items-center px-6 pt-32 pb-20">
-      <div className="w-full max-w-6xl mx-auto p-12 md:p-24 flex flex-col items-center text-center">
-        
+    <section className="relative min-h-[90vh] flex flex-col justify-center px-6 pt-32 pb-20 overflow-hidden">
+      {/* Background Image & Glow Effects */}
+      <div
+        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/hero-bg.jpg')" }}
+      >
+        {/* Replicating the elliptical glow centered around the button area from the reference image */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_80%_60%,rgba(56,189,248,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_20%_30%,rgba(99,102,241,0.05),transparent_40%)]"></div>
+
+        {/* Bottom fade */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background"></div>
+      </div>
+
+      <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-end justify-between relative z-10 gap-12 lg:px-12">
+
+        <div className="flex flex-col items-start text-left max-w-4xl">
+
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1.1] mb-8"
+          >
+            Harshvardhansinh <br className="hidden md:block" /> Vaghela
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="text-xl md:text-2xl text-muted-foreground font-medium max-w-2xl leading-relaxed"
+          >
+            AI/ML Developer building scalable applications, backend systems, and SaaS solutions.
+          </motion.p>
+        </div>
+
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="inline-flex items-center gap-2 bg-background px-4 py-2 rounded-full mb-8 border border-border/50"
-        >
-          <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-          <span className="text-sm font-medium">Available for new opportunities</span>
-        </motion.div>
-
-        <motion.h1 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-balance leading-[1.1] mb-6 max-w-5xl"
-        >
-          Harshvardhansinh Vaghela
-        </motion.h1>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-xl md:text-2xl text-muted-foreground font-medium mb-12 max-w-2xl text-balance"
-        >
-          AI/ML Developer building scalable applications, backend systems, and SaaS solutions.
-        </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 0.4 }}
+          className="lg:mb-2"
         >
-          <Button onClick={scrollToProjects} className="rounded-full px-8 py-6 text-lg group">
-            View Projects
-            <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          <Button
+            onClick={scrollToContact}
+            className="rounded-full px-8 py-6 text-lg font-semibold shadow-[0_0_40px_-12px_rgba(255,255,255,0.2)] hover:shadow-[0_0_50px_-10px_rgba(255,255,255,0.15)] hover:scale-105 transition-all duration-300 active:scale-95"
+          >
+            Get in touch
           </Button>
         </motion.div>
 

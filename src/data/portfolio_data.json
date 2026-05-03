@@ -23,49 +23,24 @@
   },
   "projects": [
     {
-      "id": 9,
-      "name": "Image Manipulation Detector",
-      "description": "VeriLens AI is an **explainable deep learning application** that detects whether an image is **real ...",
-      "longDescription": "VeriLens AI is an **explainable deep learning application** that detects whether an image is **real or manipulated** using transfer learning and visual explanation techniques.",
+      "id": 12,
+      "name": "Legal Ai Platform",
+      "description": "LegalAI is a premium, AI-powered platform designed to streamline legal document analysis. It helps u...",
+      "longDescription": "LegalAI is a premium, AI-powered platform designed to streamline legal document analysis. It helps users understand complex contracts by breaking them down into simpler terms, identifying risks, and providing multi-language explanations (English, Gujarati, and Hindi).",
       "techStack": [
-        "OpenCV",
-        "TensorFlow",
-        "Scikit-Learn",
-        "Python"
+        "Python",
+        "FastAPI"
       ],
       "features": [
-        "\ud83d\udce4 Upload any image (JPG, PNG)",
-        "\ud83e\udd16 AI-based classification (Real vs Fake)",
-        "\ud83d\udcca Confidence score visualization",
-        "\ud83d\udd0d Grad-CAM heatmap for model explainability",
-        "\u26a1 Fast and efficient inference using MobileNetV2"
+        "\ud83d\udcc4 Smart PDF Parsing**: Upload legal documents and extract clauses automatically.",
+        "\ud83d\udd0d Clause Analysis**: AI-driven explanation of complex legal jargon in plain English.",
+        "\ud83c\udf0d Multi-language Support**: Explanations available in **English**, **Gujarati**, and **Hindi**.",
+        "\u26a0\ufe0f Risk Assessment**: Identifies potential risks (High, Medium, Low) in each clause.",
+        "\ud83d\udcc2 Categorization**: Automatically classifies clauses (e.g., Termination, Liability, Confidentiality)."
       ],
-      "githubUrl": "",
+      "githubUrl": "https://github.com/harshvardhan7851/legal-ai",
       "liveUrl": "",
       "category": "AI/ML",
-      "featured": true
-    },
-    {
-      "id": 14,
-      "name": "Meeting Brain",
-      "description": "> Turn any meeting transcript into instant action \u2014 summaries, tasks, decisions, mood analysis & fol...",
-      "longDescription": "> Turn any meeting transcript into instant action \u2014 summaries, tasks, decisions, mood analysis & follow-up emails in seconds.",
-      "techStack": [
-        "Lucide Icons",
-        "React",
-        "Node.js",
-        "JavaScript"
-      ],
-      "features": [
-        "\ud83e\udde0 **Smart Summary** \u2014 2-3 sentence overview of any meeting",
-        "\u2705 **Action Items** \u2014 Every task automatically extracted",
-        "\u26a1 **Key Decisions** \u2014 What was agreed on, crystal clear",
-        "\ud83d\ude0a **Team Mood Meter** \u2014 Sentiment score with visual indicator",
-        "\ud83d\udce7 **Follow-up Email Draft** \u2014 Ready-to-send email in one click"
-      ],
-      "githubUrl": "",
-      "liveUrl": "",
-      "category": "Frontend",
       "featured": true
     },
     {
@@ -84,28 +59,78 @@
         "Real-time Telemetry:** Built-in tracking for performance monitoring and API health.",
         "Modern Dashboard:** A sleek, responsive interface for managing the entire talent pipeline."
       ],
-      "githubUrl": "",
+      "githubUrl": "https://github.com/harshvardhan7851/GruntWorkr",
       "liveUrl": "",
       "category": "AI/ML",
       "featured": true
     },
     {
-      "id": 12,
-      "name": "Legal Ai Platform",
-      "description": "LegalAI is a premium, AI-powered platform designed to streamline legal document analysis. It helps u...",
-      "longDescription": "LegalAI is a premium, AI-powered platform designed to streamline legal document analysis. It helps users understand complex contracts by breaking them down into simpler terms, identifying risks, and providing multi-language explanations (English, Gujarati, and Hindi).",
+      "id": 14,
+      "name": "Meeting Brain",
+      "description": "Turn any meeting transcript into instant action \u2014 summaries, tasks, decisions, mood analysis & fol...",
+      "longDescription": "Turn any meeting transcript into instant action \u2014 summaries, tasks, decisions, mood analysis & follow-up emails in seconds.",
       "techStack": [
-        "Python",
-        "FastAPI"
+        "Lucide Icons",
+        "React",
+        "Node.js",
+        "JavaScript"
       ],
       "features": [
-        "\ud83d\udcc4 Smart PDF Parsing**: Upload legal documents and extract clauses automatically.",
-        "\ud83d\udd0d Clause Analysis**: AI-driven explanation of complex legal jargon in plain English.",
-        "\ud83c\udf0d Multi-language Support**: Explanations available in **English**, **Gujarati**, and **Hindi**.",
-        "\u26a0\ufe0f Risk Assessment**: Identifies potential risks (High, Medium, Low) in each clause.",
-        "\ud83d\udcc2 Categorization**: Automatically classifies clauses (e.g., Termination, Liability, Confidentiality)."
+        "\ud83e\udde0 **Smart Summary** \u2014 2-3 sentence overview of any meeting",
+        "\u2705 **Action Items** \u2014 Every task automatically extracted",
+        "\u26a1 **Key Decisions** \u2014 What was agreed on, crystal clear",
+        "\ud83d\ude0a **Team Mood Meter** \u2014 Sentiment score with visual indicator",
+        "\ud83d\udce7 **Follow-up Email Draft** \u2014 Ready-to-send email in one click"
       ],
-      "githubUrl": "",
+      "githubUrl": "https://github.com/harshvardhan7851/meeting-brain",
+      "liveUrl": "",
+      "category": "Frontend",
+      "featured": true
+    },
+    {
+      "id": 16,
+      "name": "Telegram Expense Bot",
+      "description": "A Telegram bot that tracks daily expenses, syncs with Google Sheets, and provides an analytics dashboard.",
+      "longDescription": "A robust Telegram bot built with FastAPI that tracks daily expenses via simple messages. It automatically categorizes spending, syncs data to Google Sheets in real-time, and generates a visual analytics dashboard using Matplotlib and Pandas.",
+      "techStack": [
+        "FastAPI",
+        "PostgreSQL",
+        "Google Sheets API",
+        "Matplotlib",
+        "Python"
+      ],
+      "features": [
+        "Track Expenses via Telegram messages",
+        "Auto-Categorization (Food, Travel, Rent, etc.)",
+        "Real-time Google Sheets Synchronization",
+        "Visual Analytics Dashboard with charts",
+        "Automated spending summaries"
+      ],
+      "githubUrl": "https://github.com/harshvardhan7851/Telegram-expense-bot",
+      "liveUrl": "",
+      "category": "Python/Backend",
+      "featured": true
+    },
+    {
+      "id": 17,
+      "name": "VeriLens AI",
+      "description": "An explainable deep learning application that detects manipulated images using Grad-CAM heatmaps.",
+      "longDescription": "VeriLens AI is a deep learning solution for image authenticity verification. It utilizes transfer learning with MobileNetV2 to classify images as real or manipulated, and provides visual explanations through Grad-CAM heatmaps to highlight regions of suspicious modification.",
+      "techStack": [
+        "TensorFlow",
+        "Keras",
+        "OpenCV",
+        "Streamlit",
+        "Python"
+      ],
+      "features": [
+        "Real vs Fake image classification",
+        "Grad-CAM visual explanation heatmaps",
+        "Confidence score visualization",
+        "MobileNetV2 Transfer Learning",
+        "Interactive Streamlit web interface"
+      ],
+      "githubUrl": "https://github.com/harshvardhan7851/VeriLens",
       "liveUrl": "",
       "category": "AI/ML",
       "featured": true

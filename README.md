@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Harshvardhansinh Vaghela | Portfolio
 
-## Getting Started
+A premium, cybernetic-themed developer portfolio built with **Next.js 15**, **Tailwind CSS**, and **Three.js**. This project showcases my expertise in Data Science, AI/ML orchestration, and scalable full-stack development.
 
-First, run the development server:
+![Portfolio Preview](public/preview.png) *(Note: Add a screenshot here once deployed)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Cybernetic Deep Space Aesthetic**: High-fidelity UI with glassmorphism, glowing accents, and smooth Framer Motion animations.
+- **3D Data Chain Orchestration**: Interactive Three.js animation representing LLM/LangChain data flows.
+- **Dynamic Project Showcase**: Responsive grid displaying AI/ML models, backend systems, and full-stack SaaS solutions.
+- **Interactive Skills System**: Categorized technical expertise with hover-active glassmorphic chips.
+- **Functional Contact Engine**: Real-time email integration using Web3Forms with status handling.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js 15 (App Router)](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) & [Three.js](https://threejs.org/)
+- **3D Rendering**: [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber) & [@react-three/drei](https://github.com/pmndrs/drei)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Form Handling**: [Web3Forms](https://web3forms.com/)
 
-## Learn More
+## 📦 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Node.js 18+ 
+- npm / pnpm / yarn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Installation
 
-## Deploy on Vercel
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/harshvardhan7851/portfolio-website.git
+   cd portfolio-website
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Configure Environment Variables**
+   Create a `.env.local` file in the root and add your Web3Forms access key:
+   ```env
+   NEXT_PUBLIC_WEB3FORMS_KEY=your_access_key_here
+   ```
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+## 📂 Project Structure
+
+- `src/components/`: Modular React components (Hero, About, Projects, Skills, Contact).
+- `src/data/`: Centralized `portfolio_data.json` for easy content updates.
+- `src/app/`: Next.js 15 App Router pages and global styles.
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+Built with ❤️ by [Harshvardhansinh Vaghela](https://github.com/harshvardhan7851)

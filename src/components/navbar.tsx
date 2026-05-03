@@ -3,6 +3,13 @@
 import { motion } from "framer-motion";
 
 export function Navbar() {
+  const scrollToAbout = () => {
+    document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
+  };
+  const scrollToProjects = () => {
+    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   const scrollToContact = () => {
     document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
   };
@@ -14,10 +21,22 @@ export function Navbar() {
       transition={{ duration: 0.5 }}
       className="fixed top-0 left-0 right-0 z-50 p-6"
     >
-      <div className="max-w-6xl mx-auto flex justify-between items-center bg-white/70 backdrop-blur-md rounded-full px-8 py-4 shadow-[0_4px_30px_rgba(0,0,0,0.03)] border border-white/50">
-        <div className="flex items-center gap-4">
-          <button 
-            onClick={scrollToContact} 
+      <div className="max-w-6xl mx-auto flex justify-between items-center bg-background/80 backdrop-blur-md rounded-full px-8 py-4 shadow-[0_4px_30px_rgba(0,0,0,0.2)] border border-border/50">
+        <div className="flex items-center gap-6">
+          <button
+            onClick={scrollToAbout}
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            About
+          </button>
+          <button
+            onClick={scrollToProjects}
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Projects
+          </button>
+          <button
+            onClick={scrollToContact}
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             Contact Me
