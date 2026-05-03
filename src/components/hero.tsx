@@ -10,7 +10,7 @@ export function Hero() {
   };
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-center px-6 pt-20 pb-16 overflow-hidden">
+    <section className="relative min-h-screen flex flex-col justify-center px-6 pt-24 pb-12 overflow-hidden">
       {/* Background Image & Glow Effects */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"

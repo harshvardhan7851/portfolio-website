@@ -64,8 +64,8 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 px-6 max-w-6xl mx-auto border-t border-border/10">
-      <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+    <section id="contact" className="py-16 px-6 max-w-5xl mx-auto border-t border-border/10">
+      <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
         <div className="text-left">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Let&apos;s Connect</h2>
           <p className="text-lg text-muted-foreground max-w-xl">
@@ -86,7 +86,7 @@ export function Contact() {
         >
           <h3 className="text-2xl font-bold mb-10 tracking-tight">Send a message</h3>
           <form onSubmit={handleSubmit} className="space-y-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="flex flex-col gap-8">
               <div className="space-y-5">
                 <label htmlFor="name" className="text-sm font-bold uppercase tracking-widest text-muted-foreground">Your Name</label>
                 <Input
@@ -147,22 +147,22 @@ export function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="w-full bg-card/40 backdrop-blur-xl rounded-[2.5rem] p-10 md:p-14 border border-border/50 flex-grow flex flex-col justify-center"
+            className="w-full bg-card/40 backdrop-blur-xl rounded-[2.5rem] p-10 border border-border/50 flex-grow flex flex-col justify-center"
           >
-            <h3 className="text-2xl font-bold mb-8 tracking-tight">Collaboration Areas</h3>
-            <p className="text-muted-foreground text-xl leading-relaxed mb-10">
+            <h3 className="text-xl font-bold mb-6 tracking-tight">Collaboration Areas</h3>
+            <p className="text-muted-foreground text-lg leading-relaxed mb-8">
               I specialize in building intelligent, data-driven applications that solve real-world problems. Let&apos;s build something extraordinary together.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               {[
                 "AI/ML System Architecture",
                 "Full-stack Web Ecosystems",
                 "Scalable Backend Services",
                 "SaaS Product Strategy"
               ].map((item) => (
-                <div key={item} className="flex items-center gap-4 group">
-                  <div className="w-2 h-2 rounded-full bg-primary/40 group-hover:bg-primary transition-colors duration-300" />
-                  <span className="text-foreground/80 font-medium text-lg">{item}</span>
+                <div key={item} className="flex items-center gap-3 group">
+                  <div className="w-1.5 h-1.5 rounded-full bg-primary/40 group-hover:bg-primary transition-colors duration-300" />
+                  <span className="text-foreground/80 font-medium text-base">{item}</span>
                 </div>
               ))}
             </div>
@@ -176,21 +176,21 @@ export function Contact() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="w-full bg-card/40 backdrop-blur-xl rounded-[2.5rem] p-10 border border-border/50"
           >
-            <h3 className="text-xl font-bold mb-8 tracking-tight uppercase tracking-widest text-muted-foreground opacity-50">Find me on</h3>
-            <div className="flex flex-wrap gap-5 items-center">
+            <h3 className="text-lg font-bold mb-6 tracking-tight uppercase tracking-widest text-muted-foreground opacity-50">Find me on</h3>
+            <div className="flex flex-wrap gap-3 items-center">
               {[
-                { icon: <InstagramIcon className="w-7 h-7" />, href: "https://instagram.com" },
-                { icon: <Mail className="w-7 h-7" />, href: "mailto:vaghelaharsh.7851@gmail.com" },
-                { icon: <XIcon className="w-6 h-6" />, href: "https://x.com/hey_harsshh" },
-                { icon: <LinkedinIcon className="w-7 h-7" />, href: "https://www.linkedin.com/in/harshvardhansinh-vaghela-7932672a8/" },
-                { icon: <WhatsappIcon className="w-7 h-7" />, href: "https://wa.me/9725886699" }
+                { icon: <InstagramIcon className="w-6 h-6" />, href: "https://instagram.com" },
+                { icon: <Mail className="w-6 h-6" />, href: "mailto:vaghelaharsh.7851@gmail.com" },
+                { icon: <XIcon className="w-5 h-5" />, href: "https://x.com/hey_harsshh" },
+                { icon: <LinkedinIcon className="w-6 h-6" />, href: "https://www.linkedin.com/in/harshvardhansinh-vaghela-7932672a8/" },
+                { icon: <WhatsappIcon className="w-6 h-6" />, href: "https://wa.me/9725886699" }
               ].map((social, i) => (
                 <a
                   key={i}
                   href={social.href}
                   target={social.href.startsWith("http") ? "_blank" : undefined}
                   rel={social.href.startsWith("http") ? "noreferrer" : undefined}
-                  className="p-4 bg-background/50 border border-border/30 rounded-2xl hover:bg-primary hover:text-primary-foreground hover:border-primary hover:-translate-y-1 transition-all duration-300 shadow-sm"
+                  className="p-3 bg-background/50 border border-border/30 rounded-2xl hover:bg-primary hover:text-primary-foreground hover:border-primary hover:-translate-y-1 transition-all duration-300 shadow-sm"
                 >
                   {social.icon}
                 </a>

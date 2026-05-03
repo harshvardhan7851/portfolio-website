@@ -23,8 +23,8 @@ export function Projects() {
   const [selectedProject, setSelectedProject] = useState<any>(null);
 
   return (
-    <section id="projects" className="py-20 px-6 max-w-6xl mx-auto">
-      <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+    <section id="projects" className="py-16 px-6 max-w-5xl mx-auto">
+      <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
         <div className="text-left">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Selected Works</h2>
           <p className="text-lg text-muted-foreground max-w-xl">
