@@ -67,8 +67,8 @@ export function Contact() {
     <section id="contact" className="py-24 px-6 max-w-7xl mx-auto border-t border-border/10">
       <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-6">
         <div className="text-left">
-          <h2 className="text-5xl md:text-6xl font-bold tracking-tight mb-4">Let&apos;s Connect</h2>
-          <p className="text-xl text-muted-foreground max-w-xl">
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Let&apos;s Connect</h2>
+          <p className="text-lg text-muted-foreground max-w-xl">
             Have a project in mind or just want to say hi? Feel free to reach out.
           </p>
         </div>

@@ -26,8 +26,8 @@ export function Projects() {
     <section id="projects" className="py-24 px-6 max-w-7xl mx-auto">
       <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-6">
         <div className="text-left">
-          <h2 className="text-5xl md:text-6xl font-bold tracking-tight mb-4">Selected Works</h2>
-          <p className="text-xl text-muted-foreground max-w-xl">
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Selected Works</h2>
+          <p className="text-lg text-muted-foreground max-w-xl">
             A collection of AI/ML models, scalable backends, and full-stack applications.
           </p>
         </div>

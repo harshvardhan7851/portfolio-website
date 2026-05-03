@@ -100,7 +100,7 @@ export function About() {
             <span className="text-sm font-bold text-muted-foreground uppercase tracking-widest">About Me</span>
           </div>
 
-          <h2 className="text-5xl md:text-6xl font-bold tracking-tight mb-8 leading-[1.1] text-muted-foreground ">
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-8 leading-[1.1] text-muted-foreground ">
             Bridging the gap between <span className="text-foreground">Data</span> and <span className="text-foreground">Action</span>.
           </h2>
 

@@ -31,7 +31,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1.1] mb-8"
+            className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-6"
           >
             Harshvardhansinh <br className="hidden md:block" /> Vaghela
           </motion.h1>
@@ -40,7 +40,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-xl md:text-2xl text-muted-foreground font-medium max-w-2xl leading-relaxed"
+            className="text-lg md:text-xl text-muted-foreground font-medium max-w-2xl leading-relaxed"
           >
             AI/ML Developer building scalable applications, backend systems, and SaaS solutions.
           </motion.p>
