@@ -29,10 +29,8 @@ const skillCategories = [
 export function Skills() {
   return (
     <section id="skills" className="py-16 px-6 max-w-5xl mx-auto border-t border-border/10">
-      <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
-        <div className="text-left">
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Technologies & Tools</h2>
-        </div>
+      <div className="mb-12">
+        <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-left">Technologies & Tools</h2>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
